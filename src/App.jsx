@@ -1,12 +1,15 @@
 
 import './App.css'
+import Header from './component/Header'
+import Navbar from './component/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <div>
+      <Navbar></Navbar>
+      <Header></Header>
+    </div>
   )
 }
 
