@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Camera",
+    "description": "Classic 1960s film camera in great condition with original leather case.",
+    "currentBidPrice": 120,
+    "timeLeft": "2h 30m",
+    "bidsCount": 8,
+    "image": "https://i.postimg.cc/VkckfcdN/Bid1-min.png"
+  },
+  {
+    "id": 2,
+    "title": "Acoustic Guitar",
+    "description": "Noise-cancelling over-ear Bluetooth headphones with 30-hour battery life.",
+    "currentBidPrice": 85,
+    "timeLeft": "1h 10m",
+    "bidsCount": 12,
+    "image": "https://i.postimg.cc/9MTW58CX/Bid2-min.png"
+  },
+  {
+    "id": 3,
+    "title": "Gaming Laptop",
+    "description": "Powerful laptop with RTX graphics, 16GB RAM, and 1TB SSD storage.",
+    "currentBidPrice": 950,
+    "timeLeft": "4h 45m",
+    "bidsCount": 22,
+    "image": "https://i.postimg.cc/k5RCK1V1/Bid3-min.png"
+  },
+  {
+    "id": 4,
+    "title": "Smartwatch",
+    "description": "Fitness tracking smartwatch with heart rate monitor and GPS support.",
+    "currentBidPrice": 60,
+    "timeLeft": "3h 20m",
+    "bidsCount": 10,
+    "image": "https://i.postimg.cc/vZcwwqvD/Bid4-min.png"
+  },
+  {
+    "id": 5,
+    "title": "Unique chair",
+    "description": "Lightweight aluminum frame bike with hydraulic brakes and 21-speed gear system.",
+    "currentBidPrice": 350,
+    "timeLeft": "5h 10m",
+    "bidsCount": 15,
+    "image": "https://i.postimg.cc/9fZScvRx/Bid5-min.png"
+  },
+  {
+    "id": 6,
+    "title": "Note Book",
+    "description": "Handcrafted wooden acoustic guitar with a warm, rich tone and carrying bag.",
+    "currentBidPrice": 210,
+    "timeLeft": "50m",
+    "bidsCount": 5,
+    "image": "https://i.postimg.cc/4N0FVJpB/Bid6-min.png"
+  }
+]
