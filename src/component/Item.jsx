@@ -7,7 +7,7 @@ const Item = ({ bookmark, handleRemove }) => {
             <div className='flex gap-4 justify-between items-center'>
                 <img className='h-14 w-14' src={bookmark.image} alt="" />
                 <p className='text-sm text-gray-400'>{bookmark.description}</p>
-                <button onClick={() => handleRemove(bookmark.id)} className='text-2xl'><GoXCircle /></button>
+                <button onClick={() => handleRemove(bookmark.id, bookmark.currentBidPrice)} className='text-2xl'><GoXCircle /></button>
             </div>
         </div>
     );

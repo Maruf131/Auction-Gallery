@@ -1,6 +1,7 @@
 
 import './App.css'
 import Collections from './component/Collections';
+import Footer from './component/Footer';
 import Header from './component/Header'
 import Items from './component/Items';
 import Navbar from './component/Navbar'
@@ -20,9 +21,12 @@ function App() {
     setBitPrice(newPrice)
 
   }
-  const handleRemove = (id) => {
+  const handleRemove = (id, currentBidPrice) => {
     const removeItems = bookMarks.filter(bookmark => bookmark.id !== id);
     setBookMarks(removeItems);
+
+    const customizePrice = bitPrice - currentBidPrice;
+    setBitPrice(customizePrice)
 
   }
 
@@ -34,6 +38,7 @@ function App() {
         <Collections bidDataPromise={bidDataPromise} addToCart={addToCart}></Collections>
         <Items bookMarks={bookMarks} handleRemove={handleRemove} bitPrice={bitPrice}></Items>
       </div>
+      <Footer></Footer>
     </div>
   )
 }
